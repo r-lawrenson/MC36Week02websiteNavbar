@@ -38,14 +38,14 @@ body {
 
 .flex-nav ul li{ /* */
   border: 2px solid green; /* */
-  flex-wrap: wrap; /* ? */
+  /*flex-wrap: wrap; /* not needed */
   flex: 100%; /*  */
   /*flex: 3; /* is this ratio? */
 }
 
 .flex-nav ul li.social { /* make a smaller size? */
   border: 2px solid blue; /* */
-  flex-wrap: wrap; /* ? */
+  /*flex-wrap: wrap; /* not needed */
   flex: 25%; /*  */
   /*flex: 1; /* */
 }
@@ -72,20 +72,17 @@ a:hover {
 @media all and (max-width: 1000px) {
   .flex-nav ul{
     flex-wrap: wrap; /* why do i need wrap here if its up above? */
-  }
+  }                  /* ah, media all */ 
   .flex-nav ul li{ /* */
     flex: 50%; /* 50% is 2 columns 30% is 3*/
     }
   .flex-nav ul li.social{ /* */
-    flex: 25%; /* */
+    flex: 25%; /* media all so this only */
     }
 }
 
 @media all and (max-width: 500px) {
-
-
-
-
-
-
+  .flex-nav ul li{ /* */
+    flex: 100%; /* surely not, seams a bit easy... whats missing */
+    }
 }
