@@ -39,13 +39,15 @@ body {
 .flex-nav ul li{ /* */
   border: 2px solid green; /* */
   flex-wrap: wrap; /* ? */
-  flex: 100%; /*  */
-  /*flex: 1; /* */
+  /*flex: 100%; /*  */
+  flex: 3; /* is this ratio? */
 }
 
 .flex-nav ul li.social { /* make a smaller size? */
   border: 2px solid blue; /* */
-
+  flex-wrap: wrap; /* ? */
+  /*flex: 25%; /*  */
+  flex: 1; /* */
 }
 
 a {
