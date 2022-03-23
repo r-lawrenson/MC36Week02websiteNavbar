@@ -21,7 +21,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
-  /*display: flex; /* dosent look right*/
+  /*display: flex; /* dosent look right */
   /*justify-content: space-between; /* */
 }
 /* Flex Container */
@@ -33,14 +33,16 @@ body {
   padding: 0;
   display: flex; /* */
   justify-content: space-around; /* */
+  
 }
 
 .flex-nav ul li{ /* */
   border: 2px solid green; /* */
-  
+  flex-wrap: wrap; /* ? */
+  flex: 1; /* */
 }
 
-.flex-nav ul li.social { /* */
+.flex-nav ul li.social { /* smaller size? */
   border: 2px solid blue; /* */
   
 }
