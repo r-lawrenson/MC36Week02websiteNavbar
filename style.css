@@ -21,7 +21,8 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
-  
+  /*display: flex; /* dosent look right*/
+  /*justify-content: space-between; /* */
 }
 /* Flex Container */
 .flex-nav ul {
@@ -30,6 +31,8 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex; /* */
+  justify-content: space-around; /* */
 }
 
 .flex-nav ul li{ /* */
