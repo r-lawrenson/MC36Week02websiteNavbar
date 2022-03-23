@@ -10,48 +10,48 @@ html {
 }
 /* add border: 2px with different colours to see where the boxes are */
 body {
-  border: 2px solid red; /* */
+  /*border: 2px solid red; /* */
   font-family: sans-serif;
   margin: 0;
   background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
 }
 
 .wrapper {
-  border: 2px solid orange; /* */
+  /*border: 2px solid orange; /* */
   max-width: 1000px;
   margin: 0 auto;
   padding: 50px;
   /*display: flex; /* dosent look right */
   /*justify-content: space-between; /* */
 }
+
 /* Flex Container */
 .flex-nav ul {
-  border: 2px solid yellow; /* */
-  /*border: 1px solid black; /* */
+  /*border: 2px solid yellow; /* */
+  border: 1px solid black; /* */
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex; /* */
   justify-content: space-around; /* */
-  
 }
 
 .flex-nav ul li{ /* */
-  border: 2px solid green; /* */
+  /*border: 2px solid green; /* */
   /*flex-wrap: wrap; /* not needed */
   flex: 100%; /*  */
   /*flex: 3; /* is this ratio? */
 }
 
 .flex-nav ul li.social { /* make a smaller size? */
-  border: 2px solid blue; /* */
+  /*border: 2px solid blue; /* */
   /*flex-wrap: wrap; /* not needed */
   flex: 25%; /*  */
   /*flex: 1; /* */
 }
 
 a {
-  border: 2px solid indigo; /* */
+  /*border: 2px solid indigo; /* */
   color: white;
   font-weight: 100;
   letter-spacing: 2px;
@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-  border: 2px solid violet; /* */
+  /*border: 2px solid violet; /* */
   background: rgba(0, 0, 0, 0.3);
 }
 
