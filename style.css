@@ -39,12 +39,13 @@ body {
 .flex-nav ul li{ /* */
   border: 2px solid green; /* */
   flex-wrap: wrap; /* ? */
-  flex: 1; /* */
+  flex: 100%; /*  */
+  /*flex: 1; /* */
 }
 
-.flex-nav ul li.social { /* smaller size? */
+.flex-nav ul li.social { /* make a smaller size? */
   border: 2px solid blue; /* */
-  
+
 }
 
 a {
